@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^hakkimizda$ hakkimizda.html [L]
+RewriteRule ^hizmetler$ hizmetler.html [L]
+RewriteRule ^iletisim$ iletisim.html [L] 
